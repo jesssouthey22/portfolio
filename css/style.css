@@ -73,6 +73,11 @@ header {
     text-align: center;
     padding: 40px;
 }
+.navitem {
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
 
 /* TYPOGRAPHY */
 
@@ -217,6 +222,9 @@ img {
     padding:0.5em 0;
     width: 100%;
     vertical-align: top; 
-    text-decoration: none;
+    list-style: none;
 }
 
+ul {
+    list-style: none;
+}
