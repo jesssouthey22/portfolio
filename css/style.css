@@ -99,6 +99,7 @@ header {
 
 #workNav {
     color: #FBF8F6;
+    text-align: center;
 }
 
 a{
@@ -238,6 +239,10 @@ font-size: 150%;
 
 
 /* FOOTER */
+
+.footer {
+    width: 100%;
+}
 .footerGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -245,7 +250,7 @@ font-size: 150%;
     grid-template-areas: "links message findmeonline";
     justify-content:space-between;
     background-color: #ffffff;
-    padding:50px;
+    padding:50px 0;
     margin-top: 100px;
     width: 100%;
     vertical-align: top; 
@@ -520,11 +525,10 @@ header {
         grid-gap:50px;
         grid-template-areas: "links" "message" "findmeonline";
         background-color: #ffffff;
-        padding:50px;
+        padding:50px 0;
         margin-top: 100px;
         max-width: 600px !important;
-        margin-left: 20px;
-        margin-right:20px;
+       
         list-style: none;
         text-align: center;
     }
