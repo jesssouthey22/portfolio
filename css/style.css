@@ -174,7 +174,7 @@ font-size: 150%;
 .casestudyGridArea {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
 }
 
 #casestudy1, #casestudy2, #casestudy3, #casestudy4 {
@@ -271,7 +271,11 @@ font-size: 150%;
 }
 
 ul {
+    list-style: none;}
+
+.footer ul {
     list-style: none;
+    padding: 0;
 }
 
 
@@ -547,5 +551,6 @@ header {
 
         ul {
             list-style: none;
+            padding: 0;
         }
     }
