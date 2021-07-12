@@ -49,6 +49,8 @@ header {
 #intro {
     grid-area: intro;
     margin-left: 50px;
+    margin-right: 20px;
+    background-color: hotpink;
     
 }
 
@@ -60,6 +62,7 @@ header {
     top: 216px;
     padding-left: 100px;
     margin-right: 50px;
+    background-color: lawngreen;
 }
 
 
@@ -384,16 +387,32 @@ header {
         margin-left: 20px;
         
     }
-    
+
+    #photo {
+        grid-area: photo;
+        width: 200px;
+        padding-left: 100px;
+    }
+/* MEDIA QUERY TYPOGRAPHY */
+
+    h1{
+        font-size: 28px;
+    }
+
     h2 {
         font-size: 28px;
     }
 
-    #photo {
-        grid-area: photo;
-    
-        width: 200px;
-        padding-left: 100px;
+    h3 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
     }
 
     /* MEDIA QUERY CASE STUDIES */
@@ -430,7 +449,6 @@ header {
             margin-right: 30px;
             margin-left: 30px;
             max-height: 400px;
-            font-size: x-small;
         
         }
     
@@ -487,5 +505,36 @@ header {
             justify-content: center;
             height: unset;
             max-width: 300px;
+        }
+
+        /* MEDIA QUERY FOOTER */
+    .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px;
+        grid-gap:50px;
+        grid-template-areas: "links message" "findmeonline findmeonline";
+        background-color: #ffffff;
+        padding:50px;
+        margin-top: 100px;
+        width: 100%;
+        list-style: none;
+        text-align: center;
+    }
+
+        .links {
+            grid-area: links;
+        }
+
+        .findmeonline {
+            grid-area: findmeonline;
+        }
+
+        .message {
+            grid-area: message;
+        }
+
+        ul {
+            list-style: none;
         }
     }
